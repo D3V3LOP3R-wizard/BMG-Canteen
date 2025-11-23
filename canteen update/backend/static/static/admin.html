@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Canteen Admin</title>
+<link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+<header>
+<h1>Admin — Add Menu Item</h1>
+</header>
+
+
+<main>
+<section>
+<label>Admin token (X-ADMIN-TOKEN header)<br /><input id="admin-token" placeholder="put token here" /></label>
+<label>Item name<br /><input id="item-name" /></label>
+<label>Description<br /><input id="item-desc" /></label>
+<label>Date (YYYY-MM-DD)<br /><input id="item-date" value="" placeholder="leave empty for today" /></label>
+<button id="add-item">Add Item</button>
+<p id="add-status"></p>
+</section>
+
+
+<hr />
+<section>
+<h2>Recent Orders (admin)</h2>
+<button id="load-orders">Load Orders</button>
+<ul id="orders-list"></ul>
+</section>
+</main>
+
+
+<script src="static/admin.js"></script>
+</body>
+</html>

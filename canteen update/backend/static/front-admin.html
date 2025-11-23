@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Admin - Manage Menu</title>
+<link rel="stylesheet" href="front-admin.css" />
+</head>
+<body>
+<header>
+<div class="brand">
+      <img src="https://static.wixstatic.com/media/afbf8d_7f8884c7cb75425ab1453b2bffbef788~mv2.jpg" 
+      alt="BMGWorld logo" onerror="this.style.opacity=0.6; this.nextElementSibling.style.display='block'">
+      <div class="title" style="display:none">BMGWorld Canteen</div>
+    </div>
+<h1>Admin Panel — Add Menu Items</h1>
+</header>
+
+
+<main>
+<section>
+<h2>Add Item to Menu</h2>
+<label>Item Name:
+<input id="item-name" />
+</label>
+
+
+<label>Description:
+<input id="item-desc" />
+</label>
+
+
+<label>Date (YYYY-MM-DD):
+<input type="date"  id="item-date" />
+</label>
+ 
+
+<button id="add-item">Add Item</button>
+<p id="add-status"></p>
+</section>
+
+
+<hr>
+
+
+<section>
+<h2>Orders Received</h2>
+<ul id="orders-list"></ul>
+</section>
+</main>
+
+
+<footer>
+<a href="front.html">Back to Menu</a>
+</footer>
+
+
+<script src="front-admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Canteen Menu</title>
+<link rel="stylesheet" href="front.css" />
+</head>
+<body>
+<header>
+<div class="brand">
+      <img src="https://static.wixstatic.com/media/afbf8d_7f8884c7cb75425ab1453b2bffbef788~mv2.jpg" width="10%" height="10%">
+      <div class="title" style="display:none">BMGWorld Canteen</div>
+    </div>
+<h1>BMG Canteen</h1>
+<p id="menu-date"></p>
+</header>
+
+
+<main>
+<section id="menu"></section>
+
+
+<section id="order-form">
+<h2>Submit Your Order</h2>
+
+
+<label>Employee Name:
+<input type="text" id="employee-name" placeholder="Enter your name" />
+</label>
+
+<label>Employee Number:
+<input type="number" id="employee-number" placeholder="Enter employee number" />
+</label>
+
+
+
+
+<h3>Selected Items:</h3>
+<ul id="selected-items"></ul>
+
+
+<button id="submit-order">Submit Order</button>
+<p id="feedback"></p>
+</section>
+</main>
+
+
+<footer>
+<a href="front-admin.html">Admin Panel</a>
+</footer>
+
+
+<script src="front.js"></script>
+</body>
+</html>
